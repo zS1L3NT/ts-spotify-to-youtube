@@ -1,0 +1,27 @@
+{
+	"name": "ts-spotify-to-youtube",
+	"description": "",
+	"main": "dist/app.js",
+	"author": "zS1L3NT <zechariahtan144@gmail.com> (https://www.zectan.com)",
+	"scripts": {
+		"start": "node dist/app.js",
+		"dev": "ts-node --files src/app.ts",
+		"build": "tsc"
+	},
+	"dependencies": {
+		"dotenv": "^16.0.2",
+		"ora": "5.4.1",
+		"prompts": "^2.4.2",
+		"spotify-web-api-node": "^5.0.2",
+		"string-similarity": "^4.0.4",
+		"ytmusic-api": "^3.1.1"
+	},
+	"devDependencies": {
+		"@types/node": "latest",
+		"@types/prompts": "^2.0.14",
+		"@types/spotify-web-api-node": "^5.0.7",
+		"@types/string-similarity": "^4.0.0",
+		"ts-node": "latest",
+		"typescript": "latest"
+	}
+}
